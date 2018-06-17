@@ -16,13 +16,23 @@ dashboards:
     - extension:    *extension
       title:        DHCP leases
       widget:       Graph
-      fileName:     dhcp-leases-20180617-1341.json
+      fileName:     dhcp-leases.json
       type:         line
       filePath:     *filePath
       rows:         1
       columns:      2
       x:            0
       y:            0
+    - extension:    *extension
+      title:        Asterisk phones
+      widget:       Graph
+      fileName:     phone-status.json
+      type:         histogram
+      filePath:     *filePath
+      rows:         1
+      columns:      2
+      x:            0
+      y:            1
     # - extension:    *extension
     #   widget:       SingleGraph
     #   metric:       dhcp-leases
