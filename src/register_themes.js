@@ -1,12 +1,12 @@
 import { ThemeManager } from '@mozaik/ui'
 
 import {
-    miniTheme,
-    miniKuroTheme,
-    nightBlueTheme,
-    snowTheme,
-    solarizedDarkTheme,
-    wineTheme,
+  miniTheme,
+  miniKuroTheme,
+  nightBlueTheme,
+  snowTheme,
+  solarizedDarkTheme,
+  wineTheme
 } from '@mozaik/themes'
 
 ThemeManager.add(miniTheme)
